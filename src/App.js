@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+// Function Component
 function App()
 {
   return(
