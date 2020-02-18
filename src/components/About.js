@@ -2,7 +2,7 @@ import React from 'react';
 import personality from './Personality';
 import Behavior from './Behavior';
 
-// Class Component
+
 class About extends React.Component
 {
     constructor()
