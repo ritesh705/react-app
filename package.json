@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +28,5 @@
       "last 1 safari version"
     ]
   },
-  "author":"Ritesh Kumar | ritesh705@gmail.com"
+  "author": "Ritesh Kumar | ritesh705@gmail.com"
 }

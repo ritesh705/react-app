@@ -1,4 +1,7 @@
 import React from 'react';
+import personality from './Personality';
+import Behavior from './Behavior';
+
 
 class About extends React.Component
 {
@@ -7,15 +10,21 @@ class About extends React.Component
         super();
         this.description =
         {
-            aboutMe:"I am an Engineer, Technologist, Coder, Brother, Son, Friend, Optimist and Ambitious."
+            aboutMe:"I am an Engineer, Technologist, Coder, Brother, Son, Friend, Optimist and Ambitious.",
+            myPersonality : personality
         };
     }
 
     render()
     {
         return(
-            <p>About Me: {this.description.aboutMe}</p>
+            <div>
+                <p>About Me: {this.description.aboutMe}</p>
+                <p>{this.description.myPersonality}</p>
+                <Behavior/>
+            </div>
         );
     }
 }
+
 export default About;
