@@ -23,7 +23,7 @@ class About extends React.Component
                 <p>{this.description.myPersonality}</p>
                 <Behavior/>
             </div>
-        );
+            );
     }
 }
 
