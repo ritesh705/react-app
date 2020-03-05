@@ -1,6 +1,6 @@
 import React from 'react';
-import personality from './Personality';
-import Behavior from './Behavior';
+import personality from '../Personality/Personality';
+import Behavior from '../Behaviour/Behavior';
 
 
 class About extends React.Component
