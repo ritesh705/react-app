@@ -2,9 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import About from './components/AboutMe/About';
 import * as serviceWorker from './serviceWorker';
+import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+
+
+const Routing=(
+<Router> 
+    <div>
+        <Routes>
+            <Route path="/" element={<App/>} />
+            <Route path="/about" element={<About/>} />
+        </Routes>
+    </div>
+</Router>
+);
+
+
+ReactDOM.render(Routing, document.getElementById('root'));
+
+// ReactDOM.render(<App/>, document.getElementById('root'));
 const myelement =
 (
     <div style={{textAlign:"right"}}>
